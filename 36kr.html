@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="xiaohanyu &lt;xiaohanyu1988@gmail.com&gt;">
+  <title>数字排版漫谈</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="reveal.js/css/reveal.css">
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="reveal.js/css/theme/serif.css" id="theme">
+  <link rel="stylesheet" href="static/css/style.css"/>
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? 'reveal.js/css/print/pdf.css' : 'reveal.js/css/print/paper.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+  </script>
+  <!--[if lt IE 9]>
+  <script src="reveal.js/lib/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section>
+  <h1 class="title">数字排版漫谈</h1>
+  <p class="author">xiaohanyu &lt;xiaohanyu1988@gmail.com&gt;</p>
+  <p class="date">2017.05.04</p>
+</section>
+
+<section><section id="meta" class="titleslide slide level1"><h1>Meta</h1></section><section id="about-me" class="slide level2">
+<h2>About Me</h2>
+<ul>
+<li>11 年毕业于浙江大学计算机系</li>
+<li>3 年自由职业者</li>
+<li>PPType/PPResume 创始人</li>
+<li>Github: <a href="https://github.com/xiaohanyu">xiaohanyu@github</a></li>
+<li><a href="http://xiaohanyu.me/archive/"><a href="http://xiaohanyu.me" class="uri">http://xiaohanyu.me</a></a></li>
+<li><a href="http://ppresume.com"><a href="http://ppresume.com" class="uri">http://ppresume.com</a></a></li>
+</ul>
+</section></section>
+<section><section id="数字排版简介" class="titleslide slide level1"><h1>数字排版简介</h1></section><section id="question" class="slide level2">
+<h2>Question</h2>
+<ul>
+<li>程序员？设计师？产品经理？</li>
+<li>Word 样式表</li>
+<li>CSS 层叠样式表</li>
+<li>思源黑体、Helvetica、Garamond</li>
+<li>方正字体版权费用</li>
+<li>TeX/LaTeX</li>
+</ul>
+</section><section id="收益" class="slide level2">
+<h2>收益</h2>
+<h3 id="一叶飘落而知秋">一叶飘落而知秋</h3>
+<h3 id="细微之处见真章">细微之处见真章</h3>
+</section></section>
+<section><section id="实例分析-1" class="titleslide slide level1"><h1>实例分析-1</h1></section><section id="淘宝开放平台" class="slide level2">
+<h2><a href="https://open.taobao.com/docs/doc.htm?spm=a219a.7629140.0.0.LeATo5&amp;treeId=1&amp;articleId=101617&amp;docType=1">淘宝开放平台</a></h2>
+<p><a href="static/images/taobao_open_platform.png"><img src="static/images/taobao_open_platform.png" /></a></p>
+</section><section id="百度地图开放平台" class="slide level2">
+<h2><a href="http://lbsyun.baidu.com/index.php?title=iossdk/guide/buildproject">百度地图开放平台</a></h2>
+<p><a href="static/images/baidu_map_open_platform.png"><img src="static/images/baidu_map_open_platform.png" /></a></p>
+</section><section id="微信公众平台开发者文档" class="slide level2">
+<h2><a href="https://mp.weixin.qq.com/wiki/14/9f9c82c1af308e3b14ba9b973f99a8ba.html">微信公众平台开发者文档</a></h2>
+<p><a href="static/images/wechat_platform.png"><img src="static/images/wechat_platform.png" /></a></p>
+</section><section id="易信开放平台" class="slide level2">
+<h2><a href="https://open.yixin.im/start/web">易信开放平台</a></h2>
+<p><a href="static/images/yixin_doc.png"><img src="static/images/yixin_doc.png" /></a></p>
+</section><section id="微信公众号-1" class="slide level2">
+<h2><a href="http://mp.weixin.qq.com/s/YGJ39NYAWZSFiA-xXlfUXQ">微信公众号-1</a></h2>
+<p><a href="static/images/wechat_account1.png"><img src="static/images/wechat_account1.png" /></a></p>
+</section><section id="流派" class="slide level2">
+<h2>流派</h2>
+<ul>
+<li>Word – 菜鸟排版</li>
+<li>TeX/LaTeX – 离线排版</li>
+<li>InDesign – 块式排版</li>
+<li>HTML/CSS – 流式排版</li>
+</ul>
+</section><section id="texlatex" class="slide level2">
+<h2>TeX/LaTeX</h2>
+<p><a href="static/images/emacs_latex.png"><img src="static/images/emacs_latex.png" /></a></p>
+</section><section id="indesign" class="slide level2">
+<h2>InDesign</h2>
+<p><a href="static/images/indesign_cc.png"><img src="static/images/indesign_cc.png" /></a></p>
+</section><section id="htmlcss" class="slide level2">
+<h2>HTML/CSS</h2>
+<p><a href="static/images/chrome_developer_tools.png"><img src="static/images/chrome_developer_tools.png" /></a></p>
+</section></section>
+<section><section id="网页排版" class="titleslide slide level1"><h1>网页排版</h1></section><section id="字体" class="slide level2">
+<h2>字体</h2>
+<ul>
+<li>中文字体
+<ul>
+<li>标题推荐使用黑体，正文推荐使用宋体</li>
+<li>禁止使用中文斜体</li>
+<li>谨慎使用中文粗体</li>
+<li>西文字体</li>
+</ul></li>
+<li>西文字体
+<ul>
+<li>正文推荐使用衬线字体</li>
+<li>标题推荐使用无衬线字体，但也可以使用衬线字体</li>
+<li>需要在正文中加以强调区分的文字推荐使用意大利斜体，也可以用相应的粗体</li>
+</ul></li>
+</ul>
+</section><section id="标点-中文" class="slide level2">
+<h2>标点-中文</h2>
+<ul>
+<li>破折号（——）表示语气或声音的延续，需占用两个汉字空间</li>
+<li>省略号（……）表示节省原文、语句未完或语气的不连续，需占用两个汉字空间</li>
+<li>破折号和省略号不能因为适配分行断开或拆至两行</li>
+<li>点号（顿号、逗号、句号、冒号、分号、惊叹号、问号）、结束引号、结束括号、结束书 名号、省略号、连接号、间隔号等符号，不能出现在一行的开头</li>
+<li>……</li>
+</ul>
+</section><section id="标点-英文" class="slide level2">
+<h2>标点-英文</h2>
+<ul>
+<li>逗号、句号、分号、冒号、感叹号、问号后面一定要加半角空格</li>
+<li>括号前后要和单词一样加半角空格，但是后括号的后面如果是逗号则不需要加空格</li>
+<li>连字符的前后原则上不加空格，但有时需要对字距进行微调</li>
+<li>斜线用于静态“A 或者 B”两个并列的事物，原则上前后不加空格</li>
+</ul>
+</section><section id="标点-连接符号" class="slide level2">
+<h2>标点-连接符号</h2>
+<ul>
+<li>连字符（Hyphen, -）</li>
+<li>半角连接符（En-dash, –）</li>
+<li>全角连接符（Em-dash, —）</li>
+<li>中文破折号（——）</li>
+</ul>
+</section><section id="版式" class="slide level2">
+<h2>版式</h2>
+<ul>
+<li>行距
+<ul>
+<li>西文建议设置为 1.2–1.5 倍字号之间</li>
+<li>中文建议设置为 1.5–1.8 倍字号之间</li>
+</ul></li>
+<li>中西混排
+<ul>
+<li>在中文文字混排西文字符时，禁止使用全角西文字符</li>
+<li>汉字与西文字符、数字间建议加入一定的留白，可以通过排版软件高级功能设置实现，也可以手工加入一个半角空格</li>
+</ul></li>
+</ul>
+</section></section>
+<section><section id="实例分析-2" class="titleslide slide level1"><h1>实例分析-2</h1></section><section id="github-developer" class="slide level2">
+<h2><a href="https://developer.github.com/v3/">Github Developer</a></h2>
+<p><a href="static/images/github_developer.png"><img src="static/images/github_developer.png" /></a></p>
+</section><section id="stripe-api" class="slide level2">
+<h2><a href="https://stripe.com/docs/api/ruby#pagination">Stripe API</a></h2>
+<p><a href="static/images/stripe_api.png"><img src="static/images/stripe_api.png" /></a></p>
+</section><section id="pingxx-api" class="slide level2">
+<h2><a href="https://www.pingxx.com/api?language=Ruby#%E5%88%86%E9%A1%B5">PingXX API</a></h2>
+<p><a href="static/images/pingxx_api.png"><img src="static/images/pingxx_api.png" /></a></p>
+</section><section id="thinking-with-type" class="slide level2">
+<h2><a href="http://thinkingwithtype.com/letter/#type-classification">Thinking with Type</a></h2>
+<p><a href="static/images/thinking_with_type.png"><img src="static/images/thinking_with_type.png" /></a></p>
+</section><section id="type-is-beautiful" class="slide level2">
+<h2><a href="http://www.typeisbeautiful.com/2017/04/11961/#more-11961">Type is Beautiful</a></h2>
+<p><a href="static/images/type_is_beautiful.png"><img src="static/images/type_is_beautiful.png" /></a></p>
+</section><section id="微信公众号-2" class="slide level2">
+<h2><a href="http://mp.weixin.qq.com/s/k8iQbzWXu8j8m0Awq2NDAg">微信公众号-2</a></h2>
+<p><a href="static/images/wechat_account2.png"><img src="static/images/wechat_account2.png" /></a></p>
+</section></section>
+<section><section id="show-time" class="titleslide slide level1"><h1>Show Time</h1></section><section id="fun" class="slide level2">
+<h2>Fun</h2>
+<ul>
+<li><a href="http://underlinejs.org/">underline.js</a></li>
+<li><a href="http://letteringjs.com/">lettering.js</a></li>
+<li><a href="http://kerningjs.com">kerning.js</a></li>
+<li><a href="https://css.hanzi.co/">Han.css</a></li>
+</ul>
+</section><section id="realtime-debug" class="slide level2">
+<h2>Realtime Debug</h2>
+</section><section id="any-questions" class="slide level2">
+<h2>Any Questions?</h2>
+</section><section id="reference" class="slide level2">
+<h2>Reference</h2>
+<ul>
+<li><a href="https://book.douban.com/subject/25836269/">西文字体：字体的背景知识和使用方法</a></li>
+<li><a href="https://book.douban.com/subject/26429444/">西文字体 2：经典款字体及其表现方法</a></li>
+<li><a href="https://book.douban.com/subject/26834548/">西文排版：排版的基础和方式</a></li>
+<li><a href="http://www.typeisbeautiful.com/">Type is Beautiful</a>
+<ul>
+<li><a href="http://www.typeisbeautiful.com/typechat/">字谈字畅</a></li>
+</ul></li>
+</ul>
+</section></section>
+<section><section id="thanks" class="titleslide slide level1"><h1>Thanks!</h1></section></section>
+    </div>
+  </div>
+
+  <script src="reveal.js/lib/js/head.min.js"></script>
+  <script src="reveal.js/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'reveal.js/plugin/zoom-js/zoom.js', async: true },
+              { src: 'reveal.js/plugin/notes/notes.js', async: true }
+        ]
+      });
+    </script>
+    </body>
+</html>

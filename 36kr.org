@@ -1,0 +1,182 @@
+#+TITLE: 数字排版漫谈
+#+AUTHOR: xiaohanyu <xiaohanyu1988@gmail.com>
+#+DATE: 2017.05.04
+
+* Meta
+
+** About Me
+
+- 11 年毕业于浙江大学计算机系
+- 3 年自由职业者
+- PPType/PPResume 创始人
+- Github: [[https://github.com/xiaohanyu][xiaohanyu@github]]
+- [[http://xiaohanyu.me/archive/][http://xiaohanyu.me]]
+- [[http://ppresume.com][http://ppresume.com]]
+
+
+* 数字排版简介
+
+** Question
+
+- 程序员？设计师？产品经理？
+- Word 样式表
+- CSS 层叠样式表
+- 思源黑体、Helvetica、Garamond
+- 方正字体版权费用
+- TeX/LaTeX
+
+** 收益
+
+*** 一叶飘落而知秋
+
+*** 细微之处见真章
+
+
+* 实例分析-1
+
+** [[https://open.taobao.com/docs/doc.htm?spm=a219a.7629140.0.0.LeATo5&treeId=1&articleId=101617&docType=1][淘宝开放平台]]
+
+[[static/images/taobao_open_platform.png][file:static/images/taobao_open_platform.png]]
+
+** [[http://lbsyun.baidu.com/index.php?title=iossdk/guide/buildproject][百度地图开放平台]]
+
+[[static/images/baidu_map_open_platform.png][file:static/images/baidu_map_open_platform.png]]
+
+** [[https://mp.weixin.qq.com/wiki/14/9f9c82c1af308e3b14ba9b973f99a8ba.html][微信公众平台开发者文档]]
+
+[[static/images/wechat_platform.png][file:static/images/wechat_platform.png]]
+
+
+** [[https://open.yixin.im/start/web][易信开放平台]]
+
+[[static/images/yixin_doc.png][file:static/images/yixin_doc.png]]
+
+
+** [[http://mp.weixin.qq.com/s/YGJ39NYAWZSFiA-xXlfUXQ][微信公众号-1]]
+
+[[static/images/wechat_account1.png][file:static/images/wechat_account1.png]]
+
+** 流派
+
+- Word -- 菜鸟排版
+- TeX/LaTeX -- 离线排版
+- InDesign -- 块式排版
+- HTML/CSS -- 流式排版
+
+
+** TeX/LaTeX
+
+[[static/images/emacs_latex.png][file:static/images/emacs_latex.png]]
+
+
+** InDesign
+
+[[static/images/indesign_cc.png][file:static/images/indesign_cc.png]]
+
+
+** HTML/CSS
+
+[[static/images/chrome_developer_tools.png][file:static/images/chrome_developer_tools.png]]
+
+
+* 网页排版
+
+** 字体
+
+- 中文字体
+  - 标题推荐使用黑体，正文推荐使用宋体
+  - 禁止使用中文斜体
+  - 谨慎使用中文粗体
+  - 西文字体
+- 西文字体
+  - 正文推荐使用衬线字体
+  - 标题推荐使用无衬线字体，但也可以使用衬线字体
+  - 需要在正文中加以强调区分的文字推荐使用意大利斜体，也可以用相应的粗体
+
+** 标点-中文
+
+- 破折号（——）表示语气或声音的延续，需占用两个汉字空间
+- 省略号（……）表示节省原文、语句未完或语气的不连续，需占用两个汉字空间
+- 破折号和省略号不能因为适配分行断开或拆至两行
+- 点号（顿号、逗号、句号、冒号、分号、惊叹号、问号）、结束引号、结束括号、结束书
+  名号、省略号、连接号、间隔号等符号，不能出现在一行的开头
+- ……
+
+** 标点-英文
+
+- 逗号、句号、分号、冒号、感叹号、问号后面一定要加半角空格
+- 括号前后要和单词一样加半角空格，但是后括号的后面如果是逗号则不需要加空格
+- 连字符的前后原则上不加空格，但有时需要对字距进行微调
+- 斜线用于静态“A 或者 B”两个并列的事物，原则上前后不加空格
+
+** 标点-连接符号
+
+- 连字符（Hyphen, -）
+- 半角连接符（En-dash, –）
+- 全角连接符（Em-dash, —）
+- 中文破折号（——）
+
+** 版式
+
+- 行距
+  - 西文建议设置为 1.2--1.5 倍字号之间
+  - 中文建议设置为 1.5--1.8 倍字号之间
+- 中西混排
+  - 在中文文字混排西文字符时，禁止使用全角西文字符
+  - 汉字与西文字符、数字间建议加入一定的留白，可以通过排版软件高级功能设置实现，也可以手工加入一个半角空格
+
+
+* 实例分析-2
+
+** [[https://developer.github.com/v3/][Github Developer]]
+
+[[static/images/github_developer.png][file:static/images/github_developer.png]]
+
+
+** [[https://stripe.com/docs/api/ruby#pagination][Stripe API]]
+
+[[static/images/stripe_api.png][file:static/images/stripe_api.png]]
+
+** [[https://www.pingxx.com/api?language=Ruby#%E5%88%86%E9%A1%B5][PingXX API]]
+
+[[static/images/pingxx_api.png][file:static/images/pingxx_api.png]]
+
+** [[http://thinkingwithtype.com/letter/#type-classification][Thinking with Type]]
+
+[[static/images/thinking_with_type.png][file:static/images/thinking_with_type.png]]
+
+** [[http://www.typeisbeautiful.com/2017/04/11961/#more-11961][Type is Beautiful]]
+
+[[static/images/type_is_beautiful.png][file:static/images/type_is_beautiful.png]]
+
+** [[http://mp.weixin.qq.com/s/k8iQbzWXu8j8m0Awq2NDAg][微信公众号-2]]
+
+[[static/images/wechat_account2.png][file:static/images/wechat_account2.png]]
+
+* Show Time
+
+** Fun
+
+- [[http://underlinejs.org/][underline.js]]
+- [[http://letteringjs.com/][lettering.js]]
+- [[http://kerningjs.com][kerning.js]]
+- [[https://css.hanzi.co/][Han.css]]
+
+
+** Realtime Debug
+
+
+
+
+** Any Questions?
+
+
+** Reference
+
+- [[https://book.douban.com/subject/25836269/][西文字体：字体的背景知识和使用方法]]
+- [[https://book.douban.com/subject/26429444/][西文字体 2：经典款字体及其表现方法]]
+- [[https://book.douban.com/subject/26834548/][西文排版：排版的基础和方式]]
+- [[http://www.typeisbeautiful.com/][Type is Beautiful]]
+  - [[http://www.typeisbeautiful.com/typechat/][字谈字畅]]
+
+* Thanks!
