@@ -1,0 +1,5 @@
+Build this slides by:
+
+#+BEGIN_SRC sh
+pandoc --standalone --slide-level=2 --to revealjs -V theme=serif --css static/css/style.css -S -o 36kr.html 36kr.org
+#+END_SRC
